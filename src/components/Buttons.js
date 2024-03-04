@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles/Buttons.css";
-// import CALCULATOR_BUTTONS from "./CalculatorButtons";
 
 const Buttons = ({ inputHandler, clearInput, backspace, changePlusMinus, calculateAns }) => {
   document.addEventListener("keydown", function (event) {
